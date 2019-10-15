@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import TechItem from './TechItem'
@@ -10,15 +10,6 @@ const TechListModal = ({getTechs, tech: {techs, loading}}) => {
     getTechs()
     // eslint-disable-next-line
   }, [])
-
-  // const getTechs = async () => {
-  //   setLoading(true)
-  //   const res = await fetch('/techs')
-  //   const data = await res.json()
-
-  //   setTechs(data)
-  //   setLoading(false)
-  // }
 
   return (
     <div id="tech-list-modal" className="modal">
