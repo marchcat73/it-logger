@@ -4,8 +4,8 @@
       "id": 1,
       "message": "Changed network card in server 007",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2019-10-10T14:24:06.595Z"
+      "tech": "Sam Smith",
+      "date": "2019-10-15T06:46:59.810Z"
     },
     {
       "id": 2,
@@ -44,6 +44,11 @@
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Greg",
+      "lastName": "Harris",
+      "id": 4
     }
   ]
 }
